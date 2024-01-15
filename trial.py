@@ -1,0 +1,1 @@
+print("Hello!...This is an embedded bytecode works in Python.")
