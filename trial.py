@@ -5,7 +5,7 @@ key=Fernet.generate_key()
 cipher_suite=Fernet(key)
 
 # Text that will be encrypted
-original_text = "Merhaba, bu metin şifrelenecek."
+original_text = "Hello, this is a trial message to be encrypted."
 cipher_text = cipher_suite.encrypt(original_text.encode())
 
 print(f"Original Text: {original_text}")
